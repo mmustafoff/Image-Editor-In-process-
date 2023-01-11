@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="Layout.css">
+        <link rel="stylesheet" href="LeftPart.css">
+        <link rel="stylesheet" href="RightPart.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="Panel">
+            <p class="Txt" id="Heading">Simple image editor</p>
+            <p class="Txt" id="Guidance">Choose an image with the following formats: JPEG(JPG), PNG, GIFF!</p>
+            <div id="CorrectionPanel">
+                <ul class="Txt2">
+                    <li>Brightness</li>
+                    <input type="range"  id="Rn" disabled>
+                    <li>Contrast</li>
+                    <input type="range"  id="Cn" disabled>
+                    <li>Saturation</li>
+                    <input type="range"  id="St" disabled>
+                    <li>Shadows</li>
+                    <input type="range" id="Sh" disabled>
+            </ul>
+            </div>
+            <div id="FilterPanel">
+                <p class="Txt2">Filters</p>
+            </div>
+            <canvas id="Canvas">
+            </canvas>
+            <span id="FileName">No selected file</span>
+            <div id="BrBtn">
+            <label class="CustomBtn" for="Browse">+ Add image</label>
+            <input type="file" class="Btn" id="Browse" name="Browse" hidden/>
+        </div>
+            <button class="Btn" id="X" disabled><i class="fa fa-times" ></i> Clear</button>
+            <button class="Btn" id="Save"  disabled><i class="fa fa-save"></i> Save</button>
+        </div>
+        <script src="FileDialog.js"></script>
+    </body>
+</html>
