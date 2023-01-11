@@ -1,0 +1,36 @@
+
+body, html{
+    height: 100%;
+    width: 100%;
+    background-color: #070707;
+    margin: 0;
+}
+
+#Panel{
+width: 80%;
+height: 110%;
+margin-left: 10%;
+background-color: #2b2b2b;
+}
+
+#Heading{
+    width: 40%;
+    margin-left: 20%;
+    margin-top: 3%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#Guidance{
+    width: 40%;
+    margin-left: 20%;
+    top: 12%;
+    font-size: 1rem;
+}
+
+.Txt{
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
