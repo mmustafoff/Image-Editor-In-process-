@@ -1,0 +1,66 @@
+
+
+
+input[type=range]{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 1px;
+    text-align: center;
+    outline: none;
+}
+
+input[type=range]:disabled{
+      background-color: #ffffff3a;
+    }
+    input[type=range]:enabled{
+        background-color: #ffffff;
+        cursor: pointer;
+    }
+
+    /* For Google Chrome, Opera (new versions) and Safari*/
+    
+    input[type=range]::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+    input[type=range]:disabled::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        background-color:#646464;
+    }
+    
+    input[type=range]:enabled::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        background-color:#4998ff;
+        cursor: pointer;
+    }
+    
+    input[type=range]:enabled:hover::-webkit-slider-thumb{
+        width: 18px;
+        height: 18px;
+        background-color:#ffffff;
+        transition: 0.1s;
+    }
+
+    /*For Firefox*/
+    input[type=range]::-moz-range-thumb {
+        -webkit-appearance: none;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+    input[type=range]:disabled::-moz-range-thumb{
+        background-color:#646464;
+    }
+    
+    input[type=range]:enabled::-moz-range-thumb{
+        background-color:#4998ff;
+        cursor: pointer;
+    }
+    input[type=range]:enabled:hover::-moz-range-thumb{
+        width: 18px;
+        height: 18px;
+        background-color:#ffffff;
+        transition: 0.1s;
+    }
