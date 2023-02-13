@@ -1,0 +1,74 @@
+@media only screen and (min-width: 1024px ) {
+#CorrectionPanel{
+    position: absolute;
+    width: 35vw;
+    height: 70vh;
+    left: 2rem;
+    top: 10rem;
+    overflow: hidden;
+}
+
+.List{
+    position: absolute;
+    width: 80%;
+    font-size: 1rem;
+    list-style: none;
+}
+
+li{
+font-size: 1rem;
+margin-top: 0.3rem;
+}
+
+.MenuList{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    padding-bottom: 15rem;
+    top: 7rem;
+    transition: 0.5s;
+}
+
+#Menu2{
+    left: 30rem;
+    display: flex;
+}
+
+#FilterContainer{
+    position: absolute;
+    height: 30vh;
+    width: 35vw;
+    top: 25%;
+    display: flex;
+    flex-shrink:0;
+    flex-flow: row no-wrap;
+    align-content: flex-start;
+    overflow-y: auto;
+    visibility: hidden;
+    transition:0.5s;
+    border-style: none;
+}
+
+.FilterButton{
+    position: relative;
+    flex: 0 0 25%;
+    height: 70%;
+    border-style: none;
+}
+
+.FilterButton  img{
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    border-style: none;
+}
+
+#Message{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 5rem;
+    text-align: center;
+    font-size: 2.5vw;
+}
+}
