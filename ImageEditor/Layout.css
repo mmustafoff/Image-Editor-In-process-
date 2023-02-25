@@ -1,0 +1,79 @@
+@media only screen and (min-width: 768px) {
+body, html{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+#Panel{
+position: absolute;
+width: 60vw;
+height: 100%;
+left: 20vw;
+position: absolute;
+background-color: #111111;
+}
+
+#Title{
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#Guidance{
+    position: absolute;
+    width: 100%;
+    top: 20vw;
+    font-size: 1rem;
+    text-align: center;
+}
+.SubPanel{
+    color:#ffffff3a;
+}
+
+.Txt{
+    position: absolute;
+}
+
+.Corrections{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 20vw;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+
+#ForImage{
+    position: absolute;
+    display: flex;
+    width: 30%;
+    height: 3rem;
+    top: 14rem;
+}
+footer{
+    position: absolute;
+    width: 100vw;
+    background-color: #ee1717;
+    bottom: 0;
+}
+
+.footer-container img{
+    position: absolute;
+    width: 5rem;
+    height: 1rem;
+}
+
+#EditPanel{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 40%;
+    background-color: #ee1717;
+}
+}
