@@ -1,0 +1,26 @@
+@media only screen and (min-width: 768px) {
+#Canvas{
+    position: absolute;
+    width: 25rem;
+    height: 20rem;
+    top: 6rem;
+    left: 0; 
+    right: 0; 
+    margin: auto auto;
+    border: solid 1px;
+    background: transparent;
+}
+
+#FileName{
+    position: absolute;
+    width: 15rem;
+    font-size: 1rem;
+    top: 4rem;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+}
+}

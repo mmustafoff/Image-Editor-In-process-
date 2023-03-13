@@ -1,0 +1,79 @@
+@media only screen and (min-width: 768px) {
+
+    .List{
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        height: 100%;
+        font-size: 1rem;
+        list-style: none;
+        text-align: center;
+        padding: 0;
+    }
+    
+    li{
+    font-size: 1rem;
+    margin-top: 5px;
+    }
+    
+    .MenuList{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 15rem;
+        top: 5rem;
+        transition: 0.5s;
+    }
+    
+    #Menu1{
+    width: 100%;
+    display: flex;
+    }
+    
+    #Menu2{
+        left: 100%;
+        display: flex;
+    }
+    
+    #FilterContainer{
+        position: relative;
+        height: 10rem;
+        width: 100%;
+        display: flex;
+        flex-shrink:0;
+        flex-flow: row no-wrap;
+        align-content: flex-start;
+        overflow-y: auto;
+        visibility: hidden;
+        transition:0.5s;
+        border-style: none;
+        font-size: 1rem;
+    }
+    
+    .FilterButton{
+        position: relative;
+        flex: 0 0 20%;
+        height: 7rem;
+        border-style: none;
+    }
+    
+    .FilterButton  img{
+        position: absolute;
+        width: 100%;
+        height: 100%; 
+        border-style: none;
+    }
+    
+    #Message{
+        position: absolute;
+        width:50%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        font-size: 2rem;
+        top: 2rem;
+    
+    }
+    
+    }
